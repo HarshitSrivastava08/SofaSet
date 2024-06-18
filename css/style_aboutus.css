@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    background-color: #3B5D50;
+}
+
+
+.navbar-link {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding-right: 30px;
+}
+
+.nav-item:hover{
+    text-decoration: underline yellow;  
+}
+
+#set {
+    padding-top: 90px;
+    padding-left: 50px;
+}
+
+.image-1 {
+    padding-left: 20px;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.lead {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(248, 241, 241, 0.5);
+}
+
+#click {
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.middle {
+    background-color: #EFF2F1;
+    padding-top: 100px;
+    height: 100%vh;
+}
+
+.card {
+    background-color: #EFF2F1;
+    border: none;
+}
+
+#why{
+    width:410px;
+    border-radius: 20px;padding-top: 40px;
+}
+
+.our {
+    padding-top: 200px;
+    text-align: center;
+}
+
+#but {
+    background: #375b4e;
+    border: 2px solid #375b4e;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+#but:hover {
+    background: #283f37;
+}
+
+#icon {
+    gap: 10px;
+}
+
+#curve {
+    border-radius: 50%;
+    width: 30px;
+    height:30px;
+    border: none;
+    background: #dee0df;
+    color: rgb(106, 106, 106);
+}
+
+#curve:hover {
+    background: #3B5D50;
+    border: black;
+    color: white;
+}
+
+.mid-img {
+    position: absolute;
+    left: 950px;
+    top: 2470px;
+}
+
+.bot {
+    padding-top: 100px;
+}
+
+.bot-text {
+    display: flex;
+    gap: 5px;
+}
+
+.lead-3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(106, 106, 106);
+}
+
+#column {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(47, 47, 47, 0.5);
+}
+
+.line {
+    border-bottom: 2px solid #9b9d9c;
+}
+
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    color: rgba(47, 47, 47, 0.5);
+    display: flex;
+}
+
+.bottom-line {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bottom-side-1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(47, 47, 47)
+}
+
+.bottom-side-2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(47, 47, 47)
+}
+
+.bottom-side-1:hover {
+    color: rgba(47, 47, 47, 0.5)
+}
+
+.bottom-side-2:hover {
+    color: rgba(47, 47, 47, 0.5)
+}
+
+.footer-2 {
+    display: flex;
+    gap: 20px;
+    float: right;
+}
+
+@media screen and (max-width: 520px) {
+    #why{
+        width: 305px;
+    }
+}
